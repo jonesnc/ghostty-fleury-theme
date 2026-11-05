@@ -1,0 +1,37 @@
+# Fleury (faithful 4coder colors)
+# Ghostty port of Ryan Fleury's 4coder theme
+#   https://github.com/4coder-archive/4coder_fleury/blob/master/theme-fleury.4coder
+# via https://github.com/jonesnc/fleury-vscode-theme
+# Each slot names the 4coder color it comes from.
+
+background = #020202
+foreground = #b99468
+cursor-color = #00ee00
+cursor-text = #0c0c0c
+selection-background = #494949
+selection-foreground = #ecd9b6
+
+# black:   defcolor_back / defcolor_comment
+palette = 0=#020202
+palette = 8=#666666
+# red:     fleury_color_operators / fleury_color_index_function
+palette = 1=#bd2d2d
+palette = 9=#de451f
+# green:   defcolor_comment_pop / fleury_color_index_sum_type
+palette = 2=#2ab34f
+palette = 10=#a7eb13
+# yellow:  defcolor_str_constant / defcolor_keyword
+palette = 3=#ffa900
+palette = 11=#f0c674
+# blue:    fleury_color_index_macro / fleury_color_plot_cycle[0]
+palette = 4=#2895c7
+palette = 12=#03d3fc
+# magenta: fleury_color_index_decl / defcolor_cursor[3]
+palette = 5=#c9598a
+palette = 13=#ba60c4
+# cyan:    defcolor_cursor[2] / fleury_color_brace_highlight
+palette = 6=#1be094
+palette = 14=#8ffff2
+# white:   defcolor_text_default / lighter tint of text_default
+palette = 7=#b99468
+palette = 15=#ecd9b6
